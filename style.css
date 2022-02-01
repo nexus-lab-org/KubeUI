@@ -1,31 +1,32 @@
-@import './Components/kube-ui.css';
-@import './docs-css/docs-nav.css';
-@import './docs-css/docs-sidebar.css';
-@import './docs-css/docs-code.css';
-@import './docs-css/docs-footer.css';
-@import './utility.css';
+/* External css files import */
+@import "./Components/kube-ui.css";
+@import "./docs-css/docs-nav.css";
+@import "./docs-css/docs-sidebar.css";
+@import "./docs-css/docs-code.css";
+@import "./docs-css/docs-footer.css";
+@import "./utility.css";
 
-.doc-page-layout{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: 
-                    "header header header header header header"
-                    "sidebar main main main main main"
-                    "footer footer footer footer footer footer";
+.doc-page-layout {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas:
+    "header header header header header header"
+    "sidebar main main main main main"
+    "footer footer footer footer footer footer";
 }
-.navbar{
-    grid-area: header;
+.navbar {
+  grid-area: header;
 }
-.sidebar{
-    grid-area: sidebar;
+.sidebar {
+  grid-area: sidebar;
 }
-.main-section{
-    grid-area: main;
-    box-sizing: border-box;
-    max-width: 100vw;
-    width: 100%;
-    border-left: 1px solid var(--dark-secondary-color);
+.main-section {
+  grid-area: main;
+  box-sizing: border-box;
+  max-width: 100vw;
+  width: 100%;
+  border-left: 1px solid var(--dark-secondary-color);
 }
-.footer{
-    grid-area: footer;
+.footer {
+  grid-area: footer;
 }
