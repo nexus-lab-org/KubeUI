@@ -1,0 +1,57 @@
+.component-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  border-radius: 0.3rem;
+  justify-content: center;
+  border: 1px solid var(--dark-secondary-color);
+  background-color: var(--secondary-color);
+}
+.avatar-lg {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.avatar-x-lg {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+.avatar-xx-lg {
+  width: 5rem;
+  height: 5rem;
+}
+.avatar-sm {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.avatar-x-sm {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+.avatar-md {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.circular-avatar {
+  border-radius: 50%;
+}
+.relative-circular-avatar {
+  border-radius: 50%;
+  position: relative;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.flex-item {
+  margin: 1rem 1rem 1rem 0rem;
+}
+.square-avatar {
+  border-radius: 0.3rem;
+}
+.text-avatar {
+  background-color: var(--primary-color);
+  color: var(--complimentary-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
