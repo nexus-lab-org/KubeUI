@@ -1,0 +1,58 @@
+.component-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    border-radius: 0.3rem;
+    justify-content: center;
+    border: 1px solid var(--dark-secondary-color);
+    background-color: var(--secondary-color);
+}
+  .avatar-lg {
+    width: 60px;
+    height: 60px;
+  }
+  .avatar-x-lg {
+    width: 70px;
+    height: 70px;
+  }
+  .avatar-xx-lg {
+    width: 80px;
+    height: 80px;
+  }
+  .avatar-sm {
+    width: 40px;
+    height: 40px;
+  }
+  .avatar-x-sm {
+    width: 30px;
+    height: 30px;
+  }
+  .avatar-md {
+    width: 50px;
+    height: 50px;
+  }
+  .circular-avatar {
+    border-radius: 50%;
+  }
+  .relative-circular-avatar{
+    border-radius: 50%;
+    position: relative;
+  }
+  .img{
+    width: 100%;
+    height: auto;
+  }
+  .flex-item {
+    margin: 1rem 1rem 1rem 0rem;
+  }
+  .square-avatar {
+    border-radius: 0.3rem;
+  }
+  .text-avatar{
+      background-color: #7C0BC2;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  

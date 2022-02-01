@@ -1,0 +1,89 @@
+.badge{
+    display: inline-block;
+    position: relative;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.25rem;
+    font-size: 0.65em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: white;
+}
+.bg-secondary{
+    background-color: var(--dark-secondary-text-color);
+}
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-success{
+    background-color: var(--success-color);
+}
+.bg-danger{
+    background-color: var(--danger-color);
+}
+.rounded-pill{
+    border-radius: 0.75rem;
+}
+.btn{
+    position: relative;
+    padding: 0.7rem 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+}
+.btn-badge{
+    position: absolute;
+    border-radius: 50%;
+    background-color:var(--danger-color);
+    bottom: 1.75rem;
+    padding: 0.2rem;
+    height: 1rem;
+    width: 1rem;
+}
+.badge-conatainer{
+    position: relative;
+}
+.profile-badge{
+    position: absolute;
+    border-radius: 50%;
+    bottom: 1.75rem;
+    padding: 0.2rem;
+    height: 1rem;
+    width: 1rem;
+}
+.online{
+    background-color:var(--success-color);
+}
+.incall{
+    background-color:var(--danger-color);
+}
+.away{
+    background-color:#FFA500;
+}
+.badge-conatainer .avatar-x-lg ~ .profile-badge{
+    padding: 0.1em;
+    height: 0.8rem;
+    width: 0.8em;
+    right: 19px;
+    bottom: 1.2em;
+}
+.badge-conatainer .avatar-xx-lg ~ .profile-badge{
+    padding: 0.1em;
+    height: 1em;
+    width: 1em;
+    right: 19px;
+    bottom: 1.2em;
+}
+.badge-conatainer .avatar-lg ~ .profile-badge{
+    padding: 0.1em;
+    height: 0.5em;
+    width: 0.5em;
+    right: 19px;
+    bottom: 1.2em;
+}
