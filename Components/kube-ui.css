@@ -1,3 +1,4 @@
+@import './alert.css';
 @import "./avatar.css";
 @import "./badge.css";
 
@@ -16,7 +17,7 @@ body {
 
 :root {
   --primary-color: #7c0bc2;
-  /* --light-primary-color: #8829C2; not sure of color yet */
+  --light-primary-color: #A20FF7; 
   --dark-primary-color: #4f0d75;
 
   --complimentary-text-color: white;
