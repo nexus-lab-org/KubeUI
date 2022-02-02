@@ -101,23 +101,69 @@
           <div class="introduction-section">
             <h2 class="title">Alerts</h2>
             <p>
-              Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+              Provide contextual feedback messages for typical user actions with
+              the handful of available and flexible alert messages.
             </p>
           </div>
           <h3>Contextual alert</h3>
           <p>
-            Some description of Contextual alert here and guide for how to
-            use it
+            Some description of Contextual alert here and guide for how to use
+            it
           </p>
 
+          <!-- variant one: contextual alert -->
           <div class="component-container p-4 my-6">
-            <div class="flex-item">
+            <div class="flex-item w-100">
               <div class="alert alert-primary">primary alert</div>
-              <div class="alert alert-secondary">primary alert</div>
-              <div class="alert alert-success">primary alert</div>
-              <div class="alert alert-alert">primary alert</div>
-              <div class="alert alert-danger">primary alert</div>
+              <div class="alert alert-secondary">secondary alert</div>
+              <div class="alert alert-success">success alert</div>
+              <div class="alert alert-warning">
+                <span class="alert-icon"
+                  ><i class="fas fa-exclamation-triangle"></i></span
+                >warning alert with an icon
+              </div>
+              <div class="alert alert-danger">
+                <span class="alert-icon"
+                  ><i class="fas fa-exclamation-circle"></i></span
+                >danger alert with an icon
+              </div>
             </div>
+          </div>
+
+          <div class="code-section">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fa5c91b783be0015bbae80"
+              style="width: 100%; max-height: 200px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <!-- variant two: dismissible alert -->
+          <h3>Dismissible alert</h3>
+          <p>
+            Some description of Contextual alert here and guide for how to use
+            it
+          </p>
+          <div class="component-container p-4 my-6">
+            <div class="flex-item w-100">
+              <div
+                class="alert alert-warning alert-dismissible"
+                id="dismis-alert"
+              >
+                <span class="alert-icon"
+                  ><i class="fas fa-exclamation-triangle"></i></span
+                >dismissible warning alert with an icon
+                <button class="btn-close" id="close-btn-alert"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-section">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fa5d07b783be0015bbae82"
+              style="width: 100%; max-height: 151px"
+              frameborder="0"
+            ></iframe>
           </div>
         </div>
 
