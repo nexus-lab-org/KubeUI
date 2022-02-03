@@ -7,31 +7,26 @@
 }
 .alert-primary {
   background-color: #60a5fa;
-  /* border: 1px solid #0079BF; */
   border-radius: 0.2em;
   color: #1e3a8a;
 }
 .alert-secondary {
-  background-color: var(--secondary-color);
-  border: 1px solid var(--dark-secondary-color);
+  background-color:  var(--dark-secondary-color);
   border-radius: 0.2em;
   color: var(--dark-secondary-text-color);
 }
 .alert-success {
   background-color: #4ade80;
-  /* border: 1px solid #14532D; */
   border-radius: 0.2em;
   color: #14532d;
 }
 .alert-warning {
   background-color: #fde68a;
-  /* border: 1px solid #F59E0B; */
   border-radius: 0.2em;
   color: #e09004;
 }
 .alert-danger {
   background-color: #f87171;
-  /* border: 1px solid #B91C1C; */
   border-radius: 0.2em;
   color: #b91c1c;
 }
