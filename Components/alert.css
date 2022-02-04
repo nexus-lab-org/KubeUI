@@ -6,9 +6,9 @@
   margin-bottom: 0;
 }
 .alert-primary {
-  background-color: #60a5fa;
+  background-color: var(--info-color);
   border-radius: 0.2em;
-  color: #1e3a8a;
+  color: var(--info-text-color);
 }
 .alert-secondary {
   background-color:  var(--dark-secondary-color);
@@ -16,19 +16,19 @@
   color: var(--dark-secondary-text-color);
 }
 .alert-success {
-  background-color: #4ade80;
+  background-color: var(--light-success-color);
   border-radius: 0.2em;
-  color: #14532d;
+  color: var(--success-text-color);
 }
 .alert-warning {
-  background-color: #fde68a;
+  background-color: var(--warning-color);
   border-radius: 0.2em;
-  color: #e09004;
+  color: var(--warning-text-color);
 }
 .alert-danger {
-  background-color: #f87171;
+  background-color: var(--light-danger-color);
   border-radius: 0.2em;
-  color: #b91c1c;
+  color: var(--danger-text-color);
 }
 .alert-icon {
   margin-right: 0.5em;

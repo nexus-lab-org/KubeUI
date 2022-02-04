@@ -28,11 +28,17 @@ body {
   --secondary-color: #eaeaec;
   --dark-secondary-color: #d8d8da;
 
+  --light-success-color: #4ade80;
+  --success-text-color: #14532d;
   --success-color: #339133;
   --danger-color: #eb3737;
   --bright-yellow: #ffa500;
+  --warning-color: #fde68a;
+  --warning-text-color: #e09004;
   --info-color: #60a5fa;
+  --info-text-color: #1e3a8a;
   --light-danger-color: #f87171;
+  --danger-text-color: #b91c1c;
 
   --inactive-color: rgb(191, 192, 198);
   --z-index-1: 1;
