@@ -1,0 +1,95 @@
+.card-vertical {
+  background-color: var(--complimentary-text-color);
+  display: flex;
+  flex-direction: column;
+  max-width: 13.75rem;
+  text-align: center;
+}
+.card-image-container {
+  position: relative;
+  margin-bottom: 0.5em;
+}
+.card-content-container {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+.card-title {
+  margin-bottom: 0.18em;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--dark-secondary-text-color);
+}
+.card-text {
+  font-size: 0.875rem;
+  margin-bottom: 0.72em;
+}
+.product-discounted-price {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--dark-secondary-text-color);
+}
+.product-original-price {
+  font-size: 0.75rem;
+  color: var(--secondary-text-color);
+  text-decoration: line-through;
+}
+.product-discount {
+  color: var(--light-danger-color);
+  font-size: 0.875rem;
+}
+.badge-container {
+  position: absolute;
+  top: 1.25rem;
+}
+.card-image-container .btn-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.card-image-container .bttn {
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.625em;
+}
+.card-price {
+  margin-bottom: 0.5rem;
+}
+.card-content-container .bttn {
+  width: 100%;
+}
+.card-horizontal {
+  display: flex;
+  background-color: var(--complimentary-text-color);
+  max-width: 31.25rem;
+  text-align: left;
+}
+.card-horizontal-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  width: calc(100% - 8.75rem);
+}
+.card-horizontal .card-image-container {
+  width: 8.75rem;
+  margin-bottom: 0;
+}
+.button-container {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.overlay-text {
+  position: absolute;
+  top: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  color: var(--dark-primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay-card img {
+  opacity: 65%;
+}

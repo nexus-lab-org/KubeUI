@@ -74,16 +74,16 @@
           <div class="drawer-menu">
             <ul class="nav-lists">
               <li class="nav-item">
-                <a class="nav-link px-4 py-2 active" href="#"> Alerts </a>
+                <a class="nav-link px-4 py-2 active" href="#alert"> Alerts </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#"> Avatar </a>
+                <a class="nav-link px-4 py-2" href="#avatar"> Avatar </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#"> Badges </a>
+                <a class="nav-link px-4 py-2" href="#badge"> Badges </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#"> Buttons </a>
+                <a class="nav-link px-4 py-2" href="#button"> Buttons </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link px-4 py-2" href="#"> Cards </a>
@@ -619,6 +619,177 @@
             <iframe
               src="https://www.thiscodeworks.com/embed/61fc19706ab14d0015c32dc2"
               style="width: 100%; max-height: 100px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+
+        <div id="card">
+          <div class="introduction-section">
+            <h2 class="title">Cards</h2>
+            <p>
+              Cards can be used to show user's profile picture on profile
+              information page, on navigation bar, in blogs grid items.
+            </p>
+          </div>
+
+          <!-- variant 1: Vertical product card -->
+          <h3>Vertical Product Card</h3>
+          <p>Vertical product card with image, text, badge and dismiss</p>
+          <div class="component-container p-4 my-6">
+            <div class="card-vertical flex-item">
+              <div class="card-image-container">
+                <img
+                  class="img"
+                  src="https://assets.ajio.com/medias/sys_master/root/20210306/rdl5/60427dddaeb26969817a1423/superdry_navy_blue_military_narrative_appliqued_crew-neck_t-shirt.jpg"
+                  alt="model"
+                />
+                <div class="badge-container">
+                  <span class="badge bg-primary"
+                    >4.3<i class="fas fa-star"></i
+                  ></span>
+                </div>
+                <button class="bttn bttn-outline-secondary bttn-float-icon">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+              <div class="card-content-container">
+                <div class="card-title">Levis</div>
+                <div class="card-text">Appliqued Crew-Neck T-shirt</div>
+                <div class="card-price">
+                  <span class="product-discounted-price">Rs. 2364</span>
+                  <span class="product-original-price">Rs. 2999</span>
+                  <span class="product-discount">(20% OFF)</span>
+                </div>
+                <button class="bttn bttn-primary">
+                  <span class="bttn-icon"
+                    ><i class="fas fa-shopping-bag"></i></span
+                  >Add to Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="card-vertical flex-item">
+              <div class="card-image-container">
+                <img
+                  class="img"
+                  src="https://assets.ajio.com/medias/sys_master/root/20210306/rdl5/60427dddaeb26969817a1423/superdry_navy_blue_military_narrative_appliqued_crew-neck_t-shirt.jpg"
+                  alt="model"
+                />
+                <div class="badge-container">
+                  <span class="badge bg-primary"
+                    >4.3 <i class="fas fa-star"></i
+                  ></span>
+                </div>
+                <button class="btn-close" id="close-btn-alert"></button>
+              </div>
+              <div class="card-content-container">
+                <div class="card-title">Levis</div>
+                <div class="card-text">Appliqued Crew-Neck T-shirt</div>
+                <div class="card-price">
+                  <span class="product-discounted-price">Rs. 2364</span>
+                  <span class="product-original-price">Rs. 2999</span>
+                  <span class="product-discount">(20% OFF)</span>
+                </div>
+                <button class="bttn bttn-primary">
+                  <span class="bttn-icon"
+                    ><i class="fas fa-shopping-bag"></i></span
+                  >Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- code snippet -->
+          <div class="code-section my-2">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fe0c7933c09d0015b44e2f"
+              style="width: 100%; max-height: 200px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <!-- variant 2: Horizontal product card -->
+          <h3>Horizontal Product Card landscape</h3>
+          <p>Horizontal product card with image, text and text overlay</p>
+          <div class="component-container p-4 my-6">
+            <div class="card-horizontal flex-item">
+              <div class="card-image-container">
+                <img
+                  class="img"
+                  src="https://assets.ajio.com/medias/sys_master/root/20210306/rdl5/60427dddaeb26969817a1423/superdry_navy_blue_military_narrative_appliqued_crew-neck_t-shirt.jpg"
+                  alt="model"
+                />
+                <div class="badge-container">
+                  <span class="badge bg-primary"
+                    >4.3 <i class="fas fa-star"></i
+                  ></span>
+                </div>
+              </div>
+              <div class="card-horizontal-content-container">
+                <div class="text-conatiner">
+                  <div class="card-title">Levis</div>
+                  <div class="card-text">Appliqued Crew-Neck T-shirt</div>
+                  <div class="card-price">
+                    <span class="product-discounted-price">Rs. 2364</span>
+                    <span class="product-original-price">Rs. 2999</span>
+                    <span class="product-discount">(20% OFF)</span>
+                  </div>
+                </div>
+                <div class="button-container">
+                  <button class="bttn bttn-primary">
+                    <span class="bttn-icon"
+                      ><i class="fas fa-shopping-bag"></i></span
+                    >Add to Cart
+                  </button>
+                  <button class="bttn bttn-outline-secondary">
+                    <span class="bttn-icon"><i class="far fa-heart"></i> </span
+                    >Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card-horizontal flex-item">
+              <div class="card-image-container overlay-card">
+                <img
+                  class="img"
+                  src="https://assets.ajio.com/medias/sys_master/root/20210306/rdl5/60427dddaeb26969817a1423/superdry_navy_blue_military_narrative_appliqued_crew-neck_t-shirt.jpg"
+                  alt="model"
+                />
+                <div class="badge-container">
+                  <span class="badge bg-secondary">sold out</span>
+                </div>
+                <div class="overlay-text">Out of stock</div>
+              </div>
+              <div class="card-horizontal-content-container">
+                <div class="text-conatiner">
+                  <div class="card-title">Levis</div>
+                  <div class="card-text">Appliqued Crew-Neck T-shirt</div>
+                  <div class="card-price">
+                    <span class="product-discounted-price">Rs. 2364</span>
+                    <span class="product-original-price">Rs. 2999</span>
+                    <span class="product-discount">(20% OFF)</span>
+                  </div>
+                </div>
+                <div class="button-container">
+                  <button class="bttn bttn-primary" disabled>
+                    <span class="bttn-icon"
+                      ><i class="fas fa-shopping-bag"></i></span
+                    >Add to Cart
+                  </button>
+                  <button class="bttn bttn-outline-secondary">
+                    <span class="bttn-icon"><i class="far fa-heart"></i> </span
+                    >Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- code snippet -->
+          <div class="code-section">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fe0e4a33c09d0015b44e31"
+              style="width: 100%; max-height: 200px"
               frameborder="0"
             ></iframe>
           </div>
