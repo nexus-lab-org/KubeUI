@@ -1,3 +1,4 @@
+
 @import "./alert.css";
 @import "./avatar.css";
 @import "./badge.css";
@@ -7,6 +8,7 @@
 @import "./input.css";
 @import './list.css';
 @import "./rating.css";
+
 
 html {
   scroll-behavior: smooth;
@@ -53,3 +55,4 @@ body {
   --z-index-5: 5;
   --z-index-6: 6;
 }
+
