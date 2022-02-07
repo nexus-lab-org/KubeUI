@@ -1,0 +1,31 @@
+.list-group {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 12.5rem;
+  width: 12.5rem;
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 1rem;
+  height: 1.875rem;
+}
+.list-item:hover {
+  background-color: var(--secondary-color);
+}
+.list-circled {
+  list-style-type: circle;
+}
+.list-square {
+  list-style-type: square;
+}
+.check-list {
+  display: flex;
+  flex-direction: column;
+}
+.checklist input {
+  cursor: pointer;
+}

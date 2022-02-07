@@ -5,6 +5,7 @@
 @import "./card.css";
 @import "./image.css";
 @import "./input.css";
+@import './list.css';
 
 html {
   scroll-behavior: smooth;
