@@ -97,6 +97,9 @@
               <li class="nav-item">
                 <a class="nav-link px-4 py-2" href="#list"> List </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 py-2" href="#rating"> Rating </a>
+              </li>
             </ul>
           </div>
         </aside>
@@ -884,11 +887,21 @@
             <div class="flex-item">
               <div class="input-container">
                 <label for="userName">UserName</label>
-                <input type="text" id="userName" placeholder="Enter username" />
+                <input
+                  class="input-section"
+                  type="text"
+                  id="userName"
+                  placeholder="Enter username"
+                />
               </div>
               <div class="input-container">
                 <label for="pwd">Password <span class="error">*</span></label>
-                <input type="password" id="pwd" required />
+                <input
+                  class="input-section"
+                  type="password"
+                  id="pwd"
+                  required
+                />
                 <div class="error">You must enter password.</div>
               </div>
             </div>
@@ -943,7 +956,7 @@
           <div class="component-container p-4 my-6">
             <ul class="list-group">
               <li class="list-item">
-                <i class="fas fa-user mr-2"></i><span>User Name</span>
+                <i class="fas fa-user mr-4"></i><span>User Name</span>
               </li>
               <li class="list-item">
                 <i class="fas fa-user mr-4"></i><span>User Name</span>
@@ -1008,6 +1021,65 @@
                 </label>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div id="rating">
+          <div class="introduction-section">
+            <h2 class="title">Rating</h2>
+            <p>
+              Provide contextual feedback messages for typical user actions with
+              the handful of available and flexible alert messages.
+            </p>
+          </div>
+          <h3>Basic Rating</h3>
+          <p>
+            Some description of square images here and guide for how to use it
+          </p>
+          <div class="component-container p-4 my-6">
+            <div class="rating-container">
+              <label>
+                <input
+                  class="rating-star-input"
+                  type="checkbox"
+                  name=""
+                  checked
+                />
+                <span class="fas fa-star rating-star-icon"></span>
+              </label>
+              <label>
+                <input
+                  class="rating-star-input"
+                  type="checkbox"
+                  name=""
+                  checked
+                />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input
+                  class="rating-star-input"
+                  type="checkbox"
+                  name=""
+                  checked
+                />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input
+                  class="rating-star-input"
+                  type="checkbox"
+                  name=""
+                  checked
+                />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input class="rating-star-input" type="checkbox" name="" />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+            </div>
+            <label for="rating"></label>
           </div>
         </div>
       </main>

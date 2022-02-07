@@ -6,6 +6,7 @@
 @import "./image.css";
 @import "./input.css";
 @import './list.css';
+@import "./rating.css";
 
 html {
   scroll-behavior: smooth;
