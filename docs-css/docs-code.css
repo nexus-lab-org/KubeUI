@@ -1,10 +1,14 @@
-.code-section{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0.5rem;
-    overflow-y: auto;
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/one-dark.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.gist-file .gist-meta{
+  display: none;
 }
-.code-section > iframe{
-    width: 100%;
-    border-radius: 0px;
+.code-section
+{
+    margin: 2rem auto;
+    max-height: 12.5rem;
+    max-width: 90rem;
+    overflow: auto;
+    border-radius: 7px;
 }
