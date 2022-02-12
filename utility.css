@@ -96,14 +96,29 @@
   border-bottom: 1px solid;
 }
 
-/* Alignment utility */
-.center-align {
+/* flex utilities */
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
   justify-content: center;
-  align-items: center;
 }
 .justify-between {
   justify-content: space-between;
 }
+.justify-start {
+  justify-content: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+
 /* spacing utility */
 .w-full {
   width: 100%;
@@ -162,4 +177,12 @@ p {
 }
 .text-end {
   text-align: end;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
