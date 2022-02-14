@@ -42,8 +42,8 @@
 }
 .card-image-container .btn-close {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0.76rem;
+  top: 0.76rem;
 }
 .card-image-container .bttn {
   position: absolute;
