@@ -4,12 +4,12 @@
   top: 0;
   height: calc(100vh - 2rem);
   overflow-y: auto;
-  min-width: 15rem;
+  min-width: 13rem;
 }
 .side-navbar {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 0.3rem;
 }
 .title {
   margin-top: 1rem;
@@ -29,9 +29,6 @@
   gap: 0.3rem;
   list-style: none;
 }
-.nav-item:hover {
-  background-color: var(--secondary-light-gray);
-}
 .nav-link .icon {
   color: var(--dark-grey);
   margin-right: 1.5rem;
@@ -42,8 +39,11 @@
   font-size: 1rem;
   color: #3f4049;
 }
-.active {
-  color: var(--primary-light-purple);
+.nav-link:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.2s ease;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 .drawer-app-content {
   position: relative;

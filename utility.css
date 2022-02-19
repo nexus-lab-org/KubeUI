@@ -123,6 +123,9 @@
 .w-full {
   width: 100%;
 }
+.w-50 {
+  width: 50%;
+}
 /* font-weight */
 .semi-bold {
   font-weight: 600;
