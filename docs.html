@@ -70,7 +70,7 @@
       </header>
 
       <!-- Sidebar -->
-      <div class="sidebar">
+      <div class="sidebar py-4 px-4">
         <aside class="side-navbar">
           <header class="nav-header">
             <h5 class="title px-4">Components</h5>
@@ -78,38 +78,43 @@
           <div class="drawer-menu">
             <ul class="nav-lists">
               <li class="nav-item">
-                <a class="nav-link px-4 py-2 active" href="#alert"> Alerts </a>
+                <a class="nav-link px-4 py-4 active" href="#alert"> Alerts </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#avatar"> Avatar </a>
+                <a class="nav-link px-4 py-4" href="#avatar"> Avatar </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#badge"> Badges </a>
+                <a class="nav-link px-4 py-4" href="#badge"> Badges </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#button"> Buttons </a>
+                <a class="nav-link px-4 py-4" href="#button"> Buttons </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#card"> Cards </a>
+                <a class="nav-link px-4 py-4" href="#card"> Cards </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#image"> Image </a>
+                <a class="nav-link px-4 py-4" href="#image"> Image </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#input"> Input </a>
+                <a class="nav-link px-4 py-4" href="#input"> Input </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#list"> List </a>
+                <a class="nav-link px-4 py-4" href="#list"> List </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#nav"> Navbar </a>
+                <a class="nav-link px-4 py-4" href="#nav"> Navbar </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#rating"> Rating </a>
+                <a class="nav-link px-4 py-4" href="#rating"> Rating </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-2" href="#typography">
+                <a class="nav-link px-4 py-4" href="#typography">
                   Typography
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 py-4" href="#grid">
+                  Grid
                 </a>
               </li>
             </ul>
@@ -118,7 +123,7 @@
       </div>
 
       <!-- main section -->
-      <main class="main-section py-4 px-8">
+      <main class="main-section py-4">
         <!-- Alert here -->
         <div id="alert">
           <div class="introduction-section">
@@ -136,7 +141,7 @@
 
           <!-- variant one: contextual alert -->
           <div class="component-container p-4 my-6">
-            <div class="flex-item w-100">
+            <div class="flex-item w-50">
               <div class="alert-primary mb-4 p-4">primary alert</div>
               <div class="alert-secondary mb-4 p-4">secondary alert</div>
               <div class="alert-success mb-4 p-4">success alert</div>
@@ -164,7 +169,7 @@
             it
           </p>
           <div class="component-container p-4 my-6">
-            <div class="flex-item w-100">
+            <div class="flex-item w-50">
               <div
                 class="alert-warning alert-dismissible p-4"
                 id="dismis-alert"
@@ -673,7 +678,7 @@
 
           <!-- code snippet -->
           <div class="code-section">
-            <script src="https://gist.github.com/SHIKHASINGH1506/c8e202865a2e36fd318b0050da84d31e.js"></script>
+            <script src="https://gist.github.com/SHIKHASINGH1506/1755c47cf5f2b80af1903858a7235d58.js"></script>
           </div>
 
           <!-- variant 2: Horizontal product card -->
@@ -754,7 +759,7 @@
           </div>
           <!-- code snippet -->
           <div class="code-section">
-            <script src="https://gist.github.com/SHIKHASINGH1506/e6ed746a371f72de78fce2802822b50e.js"></script>
+            <script src="https://gist.github.com/SHIKHASINGH1506/5a60ecd2ea9db6ae99ca6bcf24bbdba6.js"></script>
           </div>
         </div>
 
@@ -1172,6 +1177,45 @@
 
           <div class="code-section">
             <script src="https://gist.github.com/SHIKHASINGH1506/e0d4574fbab63675382ae65c12ae5119.js"></script>
+          </div>
+        </div>
+
+        <div id="grid">
+          <div class="introduction-section">
+            <h2 class="title">Grid</h2>
+            <p>
+              Provide contextual feedback messages for typical user actions with
+              the handful of available and flexible alert messages.
+            </p>
+          </div>
+          <h3>2-Items Grid</h3>
+          <p>
+            Some description of various heading here and guide for how to use it
+          </p>
+          <div class="component-container p-4 my-6">
+            <div class="grid-container w-full">
+              <div class="col col-lg-1 p-4">Block One</div>
+              <div class="col col-lg-2 p-4">Block Two</div>
+            </div>
+          </div>
+
+          <div class="code-section">
+            <script src="https://gist.github.com/SHIKHASINGH1506/2af329f44ce117fc465ba251d13e65e8.js"></script>
+          </div>
+          <h3>3-Items Grid</h3>
+          <p>
+            Some description of various heading here and guide for how to use it
+          </p>
+          <div class="component-container p-4 my-6">
+            <div class="grid-container w-full">
+              <div class="col col-md-1 p-4">Block One</div>
+              <div class="col col-md-2 p-4">Block Two</div>
+              <div class="col col-md-3 p-4">Block Three</div>
+            </div>
+          </div>
+
+          <div class="code-section">
+            <script src="https://gist.github.com/SHIKHASINGH1506/cefbf09dfc3a0936d9f7334b7b8e2604.js"></script>
           </div>
         </div>
       </main>

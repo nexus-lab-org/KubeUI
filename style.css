@@ -24,6 +24,8 @@
   grid-area: main;
   box-sizing: border-box;
   max-width: 100vw;
+  padding-left: 3rem;
+  padding-right: 3rem;
   width: 100%;
   border-left: 1px solid var(--dark-secondary-color);
 }
