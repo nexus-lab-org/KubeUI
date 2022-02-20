@@ -1,7 +1,7 @@
 .sidebar {
   grid-area: sidebar;
   position: sticky;
-  top: 0;
+  top: 3.875rem;
   height: calc(100vh - 2rem);
   overflow-y: auto;
   min-width: 13rem;
@@ -10,9 +10,6 @@
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-}
-.title {
-  margin-top: 2rem;
 }
 .subtitle {
   color: #909396;
@@ -32,6 +29,11 @@
 .nav-link .icon {
   color: var(--dark-grey);
   margin-right: 1.5rem;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: var(--complimentary-text-color);
 }
 .nav-link {
   display: block;
@@ -74,6 +76,14 @@
 .fixed {
   padding-top: 4rem;
 }
-p {
+p{
   margin: 1rem 0;
+}
+@media screen and (max-width: 640px){
+  html{
+    font-size: 85%;
+  }
+  .sidebar{
+    display: none;
+  }
 }

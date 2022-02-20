@@ -5,7 +5,7 @@
 @import "./docs-css/docs-body.css";
 @import "./docs-css/docs-code.css";
 @import "./docs-css/docs-footer.css";
-@import "./utility.css";
+/* @import "./utility.css"; */
 
 .doc-page-layout {
   display: grid;
@@ -20,6 +20,7 @@
 }
 .sidebar {
   grid-area: sidebar;
+
 }
 .main-section {
   grid-area: main;
@@ -35,4 +36,23 @@
 }
 .primary-text{
   color: var(--primary-color);
+}
+.landing-page{
+  height: calc(100vh - 3.4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-content{
+  width: 60vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px){
+  .doc-page-layout{
+    grid-template-areas:
+    "header header header header header header"
+    "main main main main main main"
+    "footer footer footer footer footer footer";
+  }
 }

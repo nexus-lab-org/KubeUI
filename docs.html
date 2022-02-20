@@ -30,39 +30,65 @@
   <body>
     <div class="doc-page-layout">
       <!-- Navbar -->
-      <header class="navbar">
-        <nav class="container-xxl">
-          <a class="nav-brand" href="#">
-            <span class="nav-brand__maintxt">K</span>
-            <span class="nav-brand__sectxt">ube UI</span>
-          </a>
-          <button class="navbar-toggler" id="btn-toggle">
-            <span class="material-icons"> menu </span>
-          </button>
-          <div class="navbar-collapse collapse" id="nav-toggle">
-            <ul class="navbar-nav">
+      <header class="navbar navbar-home w-full"> 
+        <nav class="navbar-wrapper">
+          <div class="navbar-left-aligned">
+            <!-- <svg
+              class="sidebar-toggler"
+              id="sidebar-toggler"
+              viewBox="0 0 100 40"
+              width="40"
+              height="40"
+            >
+              <rect width="60" height="10"></rect>
+              <rect y="20" width="60" height="10"></rect>
+              <rect y="40" width="60" height="10"></rect>
+            </svg> -->
+            <div class="sidebar-toggler"></div>
+            <a class="nav-brand" href="#">
+              <span class="nav-brand__maintxt primary-text">K</span>
+              <span class="nav-brand__sectxt">ube UI</span>
+            </a>
+           
+            <ul class="navbar-nav navbar-nav-collapse">
               <li class="nav-item">
-                <a class="nav-item-link p-4 bold" href="#">Home</a>
+                <a class="nav-item-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-item-link p-4 bold" href="#">Documentation</a>
+                <a
+                  class="nav-item-link"
+                  href="#"
+                  >Documentation</a
+                >
               </li>
             </ul>
-            <ul class="navbar-nav align-end">
+          </div>
+          <div class="navbar-right-aligned">
+            <ul class="navbar-nav navbar-fixed">
               <li class="nav-item">
-                <span class="nav-item-link">
-                  <i class="fab fa-github p-4" aria-hidden="true"></i>
-                </span>
+                <a class="nav-item-link" href="#">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
               </li>
               <li class="nav-item">
-                <span class="nav-item-link">
-                  <i class="fab fa-twitter p-4" aria-hidden="true"></i>
-                </span>
+                <a
+                  class="nav-icon-link badge-container no-link-style"
+                  href="https://github.com/SHIKHASINGH1506"
+                >
+                  <span class="nav-icon">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </span>
+                </a>
               </li>
               <li class="nav-item">
-                <span class="nav-item-link">
-                  <i class="fab fa-linkedin-in p-4" aria-hidden="true"></i>
-                </span>
+                <a
+                  class="nav-icon-link no-link-style"
+                  href="#"
+                >
+                  <span class="nav-icon">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                  </span>
+                </a>
               </li>
             </ul>
           </div>
@@ -70,8 +96,18 @@
       </header>
 
       <!-- Sidebar -->
-      <div class="sidebar py-4 px-4">
+      <div class="sidebar py-4 px-4" id="sidebar">
         <aside class="side-navbar">
+          <header class="nav-header">
+            <h5 class="title px-4">Get Started</h5>
+          </header>
+          <div class="drawer-menu">
+            <ul class="nav-lists">
+              <li class="nav-item">
+                <a class="nav-link px-4 py-4 active" href="#introduction"> Introduction </a>
+              </li>
+            </ul>
+          </div>
           <header class="nav-header">
             <h5 class="title px-4">Components</h5>
           </header>
@@ -93,6 +129,9 @@
                 <a class="nav-link px-4 py-4" href="#card"> Cards </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link px-4 py-4" href="#grid">Grid</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link px-4 py-4" href="#image"> Image </a>
               </li>
               <li class="nav-item">
@@ -112,11 +151,7 @@
                   Typography
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link px-4 py-4" href="#grid">
-                  Grid
-                </a>
-              </li>
+             
             </ul>
           </div>
         </aside>
@@ -124,6 +159,23 @@
 
       <!-- main section -->
       <main class="main-section py-4">
+        <!-- Introduction here -->
+        <div id="introduction">
+          <div class="introduction-section">
+            <h2 class="title">Introduction</h2>
+            <p>
+              Kube UI is a component library being built to help writing less basic code. To know more about it head to the github repo and explore. Any feedbacks, suggestions are most welcome!
+            </p>
+          </div>
+          <h3>Quick Start</h3>
+          <p>
+            To use Kube UI in your project add the below link into your <span class="primary-text">head</span> section. 
+          </p>
+
+          <div class="code-section">
+            <script src="https://gist.github.com/SHIKHASINGH1506/1a92810fc6943f12a64db381a591e812.js"></script>
+          </div>
+        </div>
         <!-- Alert here -->
         <div id="alert">
           <div class="introduction-section">
@@ -140,18 +192,18 @@
           <!-- variant one: contextual alert -->
           <div class="component-container p-4 my-6">
             <div class="flex-item w-50">
-              <div class="alert-primary mb-4 p-4">primary alert</div>
-              <div class="alert-secondary mb-4 p-4">secondary alert</div>
-              <div class="alert-success mb-4 p-4">success alert</div>
+              <div class="alert-primary mb-4 p-4">Primary alert</div>
+              <div class="alert-secondary mb-4 p-4">Secondary alert</div>
+              <div class="alert-success mb-4 p-4">Success alert</div>
               <div class="alert-warning mb-4 p-4">
                 <span class="alert-icon"
                   ><i class="fas fa-exclamation-triangle"></i></span
-                >warning alert with an icon
+                >Warning alert with an icon
               </div>
               <div class="alert-danger mb-4 p-4">
                 <span class="alert-icon"
                   ><i class="fas fa-exclamation-circle"></i></span
-                >danger alert with an icon
+                >Danger alert with an icon
               </div>
             </div>
           </div>
@@ -1126,7 +1178,7 @@
           </div>
           <h3>Headings</h3>
           <p>
-            h1 t h6 have different semantic menaning.
+            h1, h2, h3, h4, h5 and h6 have different semantic menaning.
           </p>
           <div class="component-container p-4 my-6">
             <div class="flex-item">
