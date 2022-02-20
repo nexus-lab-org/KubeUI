@@ -2,6 +2,7 @@
 @import "./Components/kube-ui.css";
 @import "./docs-css/docs-nav.css";
 @import "./docs-css/docs-sidebar.css";
+@import "./docs-css/docs-body.css";
 @import "./docs-css/docs-code.css";
 @import "./docs-css/docs-footer.css";
 @import "./utility.css";
@@ -31,4 +32,7 @@
 }
 .footer {
   grid-area: footer;
+}
+.primary-text{
+  color: var(--primary-color);
 }
