@@ -10,6 +10,7 @@
 @import "./rating.css";
 @import "./nav.css";
 @import "./grid.css";
+@import "../utility.css";
 
 
 html {
