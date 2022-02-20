@@ -1,7 +1,7 @@
 .sidebar {
   grid-area: sidebar;
   position: sticky;
-  top: 62px;
+  top: 3.875rem;
   height: calc(100vh - 2rem);
   overflow-y: auto;
   min-width: 13rem;
