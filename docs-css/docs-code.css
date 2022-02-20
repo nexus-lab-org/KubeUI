@@ -4,9 +4,12 @@
 .gist-file .gist-meta{
   display: none;
 }
+.gist .gist-file{
+  margin-bottom: 0em;
+}
 .code-section
 {
-    margin: 2rem auto;
+    margin: 2.125rem auto 1.5rem auto;
     max-height: 12.5rem;
     max-width: 90rem;
     overflow: auto;
