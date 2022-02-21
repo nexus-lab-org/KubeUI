@@ -1,0 +1,17 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--complimentary-text-color);
+    width: 25rem;
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 10%);
+}
+.modal-head{
+    border-bottom: 1px solid var(--dark-secondary-color);
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+.modal-footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
