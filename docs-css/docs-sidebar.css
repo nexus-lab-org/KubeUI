@@ -5,6 +5,7 @@
   height: 83vh;
   overflow-y: auto;
   min-width: 13rem;
+  padding: 1rem 1rem 1rem 2rem;
 }
 .side-navbar {
   display: flex;
@@ -79,11 +80,44 @@ a {
 p{
   margin: 1rem 0;
 }
-@media screen and (max-width: 640px){
-  html{
-    font-size: 85%;
+
+/* Hamburger sidebar from FERN */
+.sidebar-wrapper {
+  background-color: rgba(0, 0, 0, 0.562);
+  position: fixed;
+  top: 3.6rem;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.43, 0.96);
+}
+.sidebar-content {
+  max-width: 16.875rem;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: var(--complimentary-text-color);
+  transform: translate(-100%, 0);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.43, 0.96);
+}
+.sidebar-item {
+  padding: 0.5rem 1rem;
+}
+
+@media only screen and (max-width: 740px) {
+  .sidebar-toggler {
+    display: block;
   }
   .sidebar{
     display: none;
   }
+  .sidebar-wrapper.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  .sidebar-content.view {
+    transform: translateX(0);
+  }
 }
+ 
