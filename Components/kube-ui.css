@@ -11,7 +11,8 @@
 @import "./nav.css";
 @import "./grid.css";
 @import "../utility.css";
-
+@import "./toast.css";
+@import "./modal.css";
 
 html {
   scroll-behavior: smooth;

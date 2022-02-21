@@ -2,7 +2,7 @@
   grid-area: sidebar;
   position: sticky;
   top: 3.875rem;
-  height: calc(100vh - 2rem);
+  height: 83vh;
   overflow-y: auto;
   min-width: 13rem;
 }
