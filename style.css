@@ -48,7 +48,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 740px){
   .doc-page-layout{
     grid-template-areas:
     "header header header header header header"
