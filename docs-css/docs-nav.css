@@ -136,9 +136,6 @@ li {
   .navbar-nav-collapse {
     display: none;
   }
-  .sidebar-toggler {
-    display: block;
-  }
 }
 /* media query */
 @media screen and (max-width: 426px) {

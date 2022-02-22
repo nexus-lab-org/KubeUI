@@ -2,6 +2,9 @@
 ## About
 A component library made in HTML, Vanilla CSS, JavaScript and github gist for fast and easy developement.
 
+
+![home](https://user-images.githubusercontent.com/32593425/155062020-11503f44-0228-4f8f-834f-6fe33317d27e.png)
+
 ## Table of Contents
 - Introduction
 - Documentation
