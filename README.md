@@ -30,9 +30,9 @@ A component library made in HTML, Vanilla CSS, JavaScript and github gist for fa
 ## Quick Start
 You can import the entire library or any particular component. 
  
-Way to quick start
+<!-- Way to quick start
 - clone this repo: git clone https://github.com/SHIKHASINGH1506/KubeUI.git
-- Add in the **head** tag: https://kube-ui.netlify.app/Components/kube-ui.css
+- Add in the **head** tag: https://kube-ui.netlify.app/Components/kube-ui.css -->
 
 ## Features
 - Components are responsive
